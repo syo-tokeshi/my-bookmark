@@ -5,13 +5,15 @@ export default function Header() {
     <>
       <ul>
         <li>
+          <Link href="/">ホーム</Link>
+        </li>
+        <li>
           <Link href="/article/new">新規投稿</Link>
         </li>
         <li>
-          <Link href="/article/">記事一覧</Link>
+          <Link href="/article">記事一覧</Link>
         </li>
       </ul>
-      <h1>ホーム</h1>
     </>
   )
 }

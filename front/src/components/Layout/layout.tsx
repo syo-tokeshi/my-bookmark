@@ -1,11 +1,12 @@
 import { ReactElement } from 'react'
-
-type LayoutProps = Required<{
-  readonly children?: ReactElement
-}>
-
 import Header from './header'
 import Footer from './footer'
+
+type LayoutProps = Required<{
+  readonly children: ReactElement
+}>
+
+
 const Layout = ({ children }: LayoutProps) => (
   <>
     <Header />
